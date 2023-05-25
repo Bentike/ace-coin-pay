@@ -1,5 +1,4 @@
 import "../styles/cardNumber.css";
-import edit from "../images/edit.png";
 import { MdModeEdit } from 'react-icons/md';
 import Header from "./Header";
 

@@ -11,6 +11,17 @@
 
 .card-input{
     width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    outline: red;
+    border-radius: 10px;
+    border: 2px solid #f3f3f5
+}
+
+.card-input:focus{
+    background-color: #f3f3f5;
+    border-color:  rgb(51, 130, 215);
+    border-radius: 10px;
 }
 
 .edit-text{
