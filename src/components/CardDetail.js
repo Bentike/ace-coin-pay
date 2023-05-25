@@ -1,12 +1,15 @@
 import CardItem from "./CardItem";
 import CompanyCard from "./CompanyCard";
 import { FaApple } from 'react-icons/fa';
-import "../styles/cardDetail.css";
 import PriceTag from "./PriceTag";
+import Card from "./Card";
+import "../styles/cardDetail.css";
+
 const CardDetail = () => {
 
     return (
         <div className="card-detail">
+            <Card/>
             <CompanyCard item="Company" icon={<FaApple/>} text="Apple"/>
             <CardItem item="Order Number" value="1266201"/>
             <CardItem item="Product" value="MackBook Air"/>

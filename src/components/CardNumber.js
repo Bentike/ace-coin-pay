@@ -1,5 +1,6 @@
 import "../styles/cardNumber.css";
 import edit from "../images/edit.png";
+import { MdModeEdit } from 'react-icons/md';
 import Header from "./Header";
 
 const CardNumber = () => {
@@ -11,8 +12,8 @@ const CardNumber = () => {
           text="Enter the 16-digit card number on the card"
         />
         <div className="edit-wrap">
-          <img src={edit} alt="edit-icon" />
-          <p>Edit</p>
+          <MdModeEdit/>
+          <p className="edit-text">Edit</p>
         </div>
       </div>
       <input

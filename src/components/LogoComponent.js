@@ -1,11 +1,10 @@
 import '../styles/logoComponent.css';
-import logo from "../images/ace-coin-logo.png";
-
+import Ace from "../images/ace.png";
 const LogoComponent = () => {
   return (
     <div className="logo-header">
       <div className="logo-wrap">
-        <img src={logo} alt="logo" />
+        <img className='ace-logo' src={Ace} alt="Ace logo" />
         <p className="logo-text">
           AceCoin<span className="pay">Pay</span>
         </p>

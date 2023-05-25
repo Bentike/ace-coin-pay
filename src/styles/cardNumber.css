@@ -6,8 +6,15 @@
 .edit-wrap{
     display: flex;
     color: rgb(51, 130, 215);
+    align-items: center;
 }
 
 .card-input{
     width: 100%;
+}
+
+.edit-text{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
 }
