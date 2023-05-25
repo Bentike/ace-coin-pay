@@ -1,14 +1,14 @@
 import MasterCardTextImage from "../images/mst.webp";
-import { HiWifi } from 'react-icons/hi';
-import { BsSim } from 'react-icons/bs';
+import { HiWifi } from "react-icons/hi";
+import { BsSim } from "react-icons/bs";
 import "../styles/card.css";
 
 const Card = () => {
   return (
     <div className="card-component">
       <div className="icon-wrap">
-        <BsSim className="sim"/>
-        <HiWifi className="wifi"/>
+        <BsSim className="sim" />
+        <HiWifi className="wifi" />
       </div>
       <p className="holder-name">Jonathan Micheal</p>
       <div className="hash-div">
@@ -18,7 +18,11 @@ const Card = () => {
       <div className="card-date-wrap">
         <div className="card-date">09/22</div>
         <div>
-          <img className="master-card" src={MasterCardTextImage} alt="master card" />
+          <img
+            className="master-card"
+            src={MasterCardTextImage}
+            alt="master card"
+          />
         </div>
       </div>
     </div>

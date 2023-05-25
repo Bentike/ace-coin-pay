@@ -20,7 +20,7 @@ const CardNumber = () => {
 
       <div className="master-input">
         <img className="m-card" src={mCard} alt="master card" />
-        <BsFillPatchCheckFill className="mark"/>
+        <BsFillPatchCheckFill className="mark" />
         <input
           className="card-input"
           type="text"

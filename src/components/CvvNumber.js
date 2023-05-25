@@ -10,7 +10,7 @@ const CvvNumber = () => {
         text="Enter the 3 or 4 digit number on the card"
       />
       <div className="grid-icon-div">
-        <BsFillGrid3X3GapFill className="cvv-grid-icon"/>
+        <BsFillGrid3X3GapFill className="cvv-grid-icon" />
         <input className="cvv-input" type="text" placeholder="327" />
       </div>
     </div>

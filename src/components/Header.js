@@ -1,6 +1,6 @@
 import "../styles/header.css";
 
-const Header = ({title, text}) => {
+const Header = ({ title, text }) => {
   return (
     <div>
       <p className="header-title">{title}</p>
