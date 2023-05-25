@@ -1,0 +1,13 @@
+.company-icon-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple-icon{
+    margin-right: 10px;
+    background-color: #21245e;
+    color: #fff;
+    border-radius: 50%;
+    padding: 1px 3px;
+}

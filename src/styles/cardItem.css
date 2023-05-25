@@ -1,0 +1,13 @@
+.card-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-title{
+  opacity: .5;
+}
+
+.item-value{
+ color:  #21245e;
+ font-weight: 500;
+}
