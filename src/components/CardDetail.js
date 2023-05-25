@@ -9,6 +9,7 @@ const CardDetail = () => {
 
     return (
         <div className="card-detail">
+            <div className="blue-line"></div>
             <Card/>
             <CompanyCard item="Company" icon={<FaApple/>} text="Apple"/>
             <CardItem item="Order Number" value="1266201"/>

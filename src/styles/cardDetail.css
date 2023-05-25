@@ -29,3 +29,15 @@
   bottom: 120px;
   right: -20px;
 }
+
+.blue-line{
+  width: 4em;
+  height: .3em;
+  background-color: rgb(51, 130, 215);
+  position: absolute;
+  top: -155px;
+  left: 132px;
+  box-shadow: 2px 25px 30px 2px rgb(51, 130, 215);
+  z-index: 10;
+
+}
