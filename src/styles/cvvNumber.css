@@ -10,13 +10,13 @@
     font-size: 20px;
     border-radius: 10px;
     border: 2px solid #f3f3f5;
-    color:   rgb(51, 130, 215);
+    color: var(--blue);
     width: 100%;
 }
 
 .cvv-input:focus{
     background-color: #f3f3f5;
-    border:  2px solid rgb(51, 130, 215);
+    border:  2px solid var(--blue);
 }
 
 .grid-icon-div{

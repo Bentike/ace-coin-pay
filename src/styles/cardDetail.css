@@ -33,11 +33,10 @@
 .blue-line{
   width: 4em;
   height: .3em;
-  background-color: rgb(51, 130, 215);
+  background-color: var(--blue);
   position: absolute;
   top: -155px;
   left: 132px;
-  box-shadow: 2px 25px 30px 2px rgb(51, 130, 215);
+  box-shadow: 2px 25px 30px 2px var(--blue);
   z-index: 10;
-
 }

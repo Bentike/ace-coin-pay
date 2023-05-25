@@ -20,8 +20,8 @@
 }
 
 .input-expiry:focus{
-     color:  rgb(51, 130, 215);
-     border: rgb(51, 130, 215);
+     color: var(--blue);
+     border: var(--blue);
 }
 
 .slash{

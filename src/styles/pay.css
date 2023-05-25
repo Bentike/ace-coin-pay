@@ -1,6 +1,6 @@
 .pay-btn{
     width: 100%;
-    background-color: rgb(51, 130, 215);
+    background-color: var(--blue);
     border: none;
     outline: none;
     color: #fff;

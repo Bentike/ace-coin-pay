@@ -9,7 +9,7 @@
 
 .edit-wrap{
     display: flex;
-    color: rgb(51, 130, 215);
+    color: var(--blue);
     align-items: center;
 }
 
@@ -20,12 +20,12 @@
     font-size: 24px;
     border-radius: 10px;
     border: 2px solid #f3f3f5;
-    color:   rgb(51, 130, 215);
+    color: var(--blue);
 }
 
 .card-input:focus{
     background-color: #f3f3f5;
-    border-color:  rgb(51, 130, 215);
+    border-color: var(--blue);
    
 }
 
@@ -36,7 +36,7 @@
 }
 
 .master-input{
-    color:  rgb(51, 130, 215);
+    color: var(--blue);
     position: relative;
 }
 
