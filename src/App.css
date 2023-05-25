@@ -14,9 +14,11 @@
 }
 
 .close-btn{
+   width: 2em;
+   height: 2em;
+   padding: 2px;
    position: absolute;
    top: 0px;
    right: 34px;
    background: rgb(243, 241, 241);
-   padding: 10px;
 }

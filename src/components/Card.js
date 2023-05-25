@@ -7,8 +7,8 @@ const Card = () => {
   return (
     <div className="card-component">
       <div className="icon-wrap">
-        <BsSim/>
-        <HiWifi/>
+        <BsSim className="sim"/>
+        <HiWifi className="wifi"/>
       </div>
       <p className="holder-name">Jonathan Micheal</p>
       <div className="hash-div">
