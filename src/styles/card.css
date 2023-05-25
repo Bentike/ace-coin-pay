@@ -1,8 +1,23 @@
 .card-component{
-
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #BFBFBF;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #aaaaaa;
 }
 
 .icon-wrap{
     display: flex;
     justify-content: space-between;
+}
+
+.card-date-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.master-card{
+    width: 70px;
+    height: 50px;
 }

@@ -1,21 +1,23 @@
 import MasterCardTextImage from "../images/mastercart-text.png";
 import sim from "../images/sim.png";
 import wifi from "../images/wifi.png";
+import { HiWifi } from 'react-icons/hi';
+import { BsSim } from 'react-icons/bs';
 import "../styles/card.css";
 
 const Card = () => {
   return (
     <div className="card-component">
       <div className="icon-wrap">
-        <img src={sim} alt="sim card" />
-        <img src={wifi} alt="wifi icon" />
+        <BsSim/>
+        <HiWifi/>
       </div>
       <p>John Micheal</p>
-      <p>.... 3456</p>
+      <p className="pin"><span className="hash">....</span>3456</p>
       <div className="card-date-wrap">
-        <div>09/22</div>
+        <div className="card-date">09/22</div>
         <div>
-          <img src={MasterCardTextImage} alt="master card" />
+          <img className="master-card" src={MasterCardTextImage} alt="master card" />
         </div>
       </div>
     </div>
