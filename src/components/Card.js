@@ -1,6 +1,4 @@
 import MasterCardTextImage from "../images/mst.webp";
-import sim from "../images/sim.png";
-import wifi from "../images/wifi.png";
 import { HiWifi } from 'react-icons/hi';
 import { BsSim } from 'react-icons/bs';
 import "../styles/card.css";
