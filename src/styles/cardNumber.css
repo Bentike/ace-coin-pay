@@ -14,8 +14,9 @@
 }
 
 .card-input{
-    width: 100%;
+    width: 90%;
     padding: 10px;
+    padding-left: 60px;
     font-size: 24px;
     border-radius: 10px;
     border: 2px solid #f3f3f5;
@@ -32,4 +33,23 @@
     margin-left: 5px;
     font-size: 14px;
     font-weight: 500;
+}
+
+.master-input{
+    color:  rgb(51, 130, 215);
+    position: relative;
+}
+
+.m-card{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.mark{
+    position: absolute;
+    right: 0;
+    top: 18px;
 }

@@ -1,4 +1,3 @@
-import Card from "./Card";
 import CardDetail from "./CardDetail";
 
 const MainCard = () => {
