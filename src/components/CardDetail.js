@@ -15,6 +15,8 @@ const CardDetail = () => {
             <CardItem item="Product" value="MackBook Air"/>
             <CardItem item="VAT(20%)" value="$100.00"/>
             <hr/>
+            <div className="left-circle"></div>
+            <div className="right-circle"></div>
             <PriceTag/>
         </div>
     );
