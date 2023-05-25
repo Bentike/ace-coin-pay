@@ -6,6 +6,8 @@ import LogoComponent from "./components/LogoComponent";
 import Password from "./components/Password";
 import Pay from "./components/Pay";
 import MainCard from "./components/MainCard";
+import { AiOutlineClose } from 'react-icons/ai';
+
 
 function App() {
   return (
