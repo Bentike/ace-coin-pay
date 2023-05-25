@@ -1,0 +1,10 @@
+.expiry-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.expiration-input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

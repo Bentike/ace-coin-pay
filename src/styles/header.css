@@ -1,0 +1,10 @@
+.header-title{
+    color: #21245e;
+    font-weight: 700;
+}
+
+.header-text{
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 500;
+}

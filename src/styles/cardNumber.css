@@ -1,0 +1,13 @@
+.card-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-wrap{
+    display: flex;
+    color: rgb(51, 130, 215);
+}
+
+.card-input{
+    width: 100%;
+}

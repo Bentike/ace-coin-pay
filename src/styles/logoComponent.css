@@ -1,0 +1,38 @@
+.logo-wrap{
+    display: flex;
+  }
+  
+  .logo-text{
+    font-size: 24px;
+    font-weight: 700;
+    color: #21245e;
+  }
+  
+  .logo-text .pay {
+    font-weight: 400;
+  }
+  
+  .clock{
+    display: flex;
+  }
+  
+  .clock p {
+    font-size: 24px;
+  }
+  
+  .clock-text{
+    background-color: #21245e;
+    margin-right: 3px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .logo-header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dot{
+    margin-right: 3px;
+  }
