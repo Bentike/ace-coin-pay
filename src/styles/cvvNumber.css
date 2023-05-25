@@ -11,6 +11,7 @@
     border-radius: 10px;
     border: 2px solid #f3f3f5;
     color:   rgb(51, 130, 215);
+    width: 100%;
 }
 
 .cvv-input:focus{
