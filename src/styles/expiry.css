@@ -1,10 +1,29 @@
 .expiry-wrap{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .expiration-input{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.input-expiry{
+    width: 70px;
+    padding: 10px;
+    margin: 0 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #f3f3f5;
+}
+
+.input-expiry:focus{
+     color:  rgb(51, 130, 215);
+     border: rgb(51, 130, 215);
+}
+
+.slash{
+    font-size: 24px;
 }

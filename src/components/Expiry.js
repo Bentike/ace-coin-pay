@@ -10,13 +10,13 @@ const Expiry = () => {
       />
       <div className="expiration-input">
         <div>
-          <input type="text" placeholder="09" />
+          <input className="input-expiry" type="number" placeholder="09" />
         </div>
         <div>
-          <p>/</p>
+          <p className="slash">/</p>
         </div>
         <div>
-          <input type="text" placeholder="22" />
+          <input className="input-expiry" type="number" placeholder="22" />
         </div>
       </div>
     </div>
