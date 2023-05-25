@@ -1,4 +1,4 @@
-import MasterCardTextImage from "../images/mastercart-text.png";
+import MasterCardTextImage from "../images/mst.webp";
 import sim from "../images/sim.png";
 import wifi from "../images/wifi.png";
 import { HiWifi } from 'react-icons/hi';
@@ -12,8 +12,11 @@ const Card = () => {
         <BsSim/>
         <HiWifi/>
       </div>
-      <p>John Micheal</p>
-      <p className="pin"><span className="hash">....</span>3456</p>
+      <p className="holder-name">Jonathan Micheal</p>
+      <div className="hash-div">
+        <p className="hash">....</p>
+        <p className="pin">3456</p>
+      </div>
       <div className="card-date-wrap">
         <div className="card-date">09/22</div>
         <div>
