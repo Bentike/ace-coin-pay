@@ -5,6 +5,7 @@ import Expiry from "./components/Expiry";
 import LogoComponent from "./components/LogoComponent";
 import Password from "./components/Password";
 import Pay from "./components/Pay";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Pay/>
       </div>
       <div>
-        Here
+        <Card/>
       </div>
     </div>
   );

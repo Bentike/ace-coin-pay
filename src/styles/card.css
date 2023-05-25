@@ -1,0 +1,8 @@
+.card-component{
+
+}
+
+.icon-wrap{
+    display: flex;
+    justify-content: space-between;
+}
