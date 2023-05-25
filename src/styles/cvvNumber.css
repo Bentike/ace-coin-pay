@@ -18,3 +18,15 @@
     background-color: #f3f3f5;
     border:  2px solid rgb(51, 130, 215);
 }
+
+.grid-icon-div{
+    position: relative;
+}
+
+.cvv-grid-icon{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-size: 20px;
+    opacity: .5;
+}
