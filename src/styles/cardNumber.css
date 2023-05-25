@@ -1,3 +1,7 @@
+.card-number{
+  margin-bottom: 20px;
+}
+
 .card-wrap{
     display: flex;
     justify-content: space-between;

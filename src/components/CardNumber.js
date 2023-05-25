@@ -4,7 +4,7 @@ import Header from "./Header";
 
 const CardNumber = () => {
   return (
-    <div>
+    <div className="card-number">
       <div className="card-wrap">
         <Header
           title="Card Number"
