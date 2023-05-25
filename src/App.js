@@ -6,6 +6,8 @@ import LogoComponent from "./components/LogoComponent";
 import Password from "./components/Password";
 import Pay from "./components/Pay";
 import Card from "./components/Card";
+import CardDetail from "./components/CardDetail";
+import MainCard from "./components/MainCard";
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
         <Pay/>
       </div>
       <div>
-        <Card/>
+        <MainCard/>
       </div>
     </div>
   );
