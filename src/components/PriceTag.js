@@ -1,13 +1,16 @@
 import "../styles/priceTag.css";
+import Tag from "../images/tag.png";
 
 const PriceTag = () => {
     return(
-        <div>
+        <div className="price-tag-wrap">
             <div>
-                <p>You have to Pay</p>
-                <p>549.99 USD</p>
+                <p className="price-description">You have to Pay</p>
+                <p className="price">549<span className="sub">.99 <span className="usd">USD</span></span></p>
             </div>
-            <div></div>
+            <div>
+                <img className="tag-img" src={Tag} alt="price tag"/>
+            </div>
         </div>
     );
 }

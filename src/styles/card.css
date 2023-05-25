@@ -5,6 +5,9 @@
   border-radius: 20px;
   background-color: white;
   box-shadow: 2px 2px 5px #aaaaaa;
+  position: absolute;
+  bottom: -80px;
+  left: 110px;
 }
 
 .icon-wrap{

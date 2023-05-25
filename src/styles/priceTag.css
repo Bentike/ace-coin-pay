@@ -1,0 +1,29 @@
+.price-tag-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tag-img{
+    width: 50px;
+    height: 50px;
+}
+
+.price-description{
+    opacity: .5;
+}
+
+.price{
+    color: #21245e;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.price .sub{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.price .sub .usd{
+    opacity: .5;
+}
