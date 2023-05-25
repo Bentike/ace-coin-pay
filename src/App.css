@@ -1,3 +1,7 @@
+.app-main{
+  position: relative;
+}
+
 .App{
    width: 90%;
    background-color: #fff;
@@ -7,4 +11,12 @@
    display: flex;
    justify-content: space-around;
    align-items: center;
+}
+
+.close-btn{
+   position: absolute;
+   top: 0px;
+   right: 34px;
+   background: rgb(243, 241, 241);
+   padding: 10px;
 }
