@@ -11,7 +11,7 @@ import { AiOutlineClose } from "react-icons/ai";
 function App() {
   return (
     <div className="app-main">
-      <AiOutlineClose className="close-btn"/>
+      <AiOutlineClose className="close-btn" />
       <div className="App">
         <div className="first-content">
           <LogoComponent />

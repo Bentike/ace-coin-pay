@@ -19,9 +19,15 @@
    height: 2em;
    padding: 2px;
    position: absolute;
-   top: 0px;
+   top: 0;
    right: 34px;
    background: rgb(243, 241, 241);
+}
+
+@media only screen and (max-width: 990px){
+   .close-btn{
+      right: 20px;
+     }
 }
 
 @media only screen and (max-width: 850px){
@@ -29,4 +35,14 @@
    margin-top: 70px;
    margin-bottom: 30px;
   } 
+
+  .close-btn{
+   right: 10px;
+  }
+}
+
+@media only screen and (max-width: 650px){
+   .close-btn{
+      right: 2px;
+     }
 }
