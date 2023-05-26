@@ -24,16 +24,9 @@
    background: rgb(243, 241, 241);
 }
 
-.first-content{
- 
-}
-
-.second-content{
-  
-}
-
 @media only screen and (max-width: 850px){
   .second-content{
-   margin-top: 50px;
+   margin-top: 70px;
+   margin-bottom: 30px;
   } 
 }
