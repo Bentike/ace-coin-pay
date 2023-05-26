@@ -13,7 +13,7 @@ function App() {
     <div className="app-main">
       <AiOutlineClose className="close-btn"/>
       <div className="App">
-        <div>
+        <div className="first-content">
           <LogoComponent />
           <CardNumber />
           <CvvNumber />
@@ -21,7 +21,7 @@ function App() {
           <Password />
           <Pay />
         </div>
-        <div>
+        <div className="second-content">
           <MainCard />
         </div>
       </div>
