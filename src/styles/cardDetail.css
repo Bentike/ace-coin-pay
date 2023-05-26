@@ -40,3 +40,9 @@
   box-shadow: 2px 25px 30px 2px var(--blue);
   z-index: 10;
 }
+
+hr.rule{
+  border-top: 1px dashed #000;
+  opacity: .5;
+  width: 250px;
+}
